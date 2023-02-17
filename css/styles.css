@@ -102,3 +102,29 @@ body{
 .container .elem:last-child{
     border-radius: 0 var(--br-elements) var(--br-elements) 0;
 }
+
+/********************* Media queries to adjust border-radius *********************/
+/* When there are 2 element in first row and 1 in second. */
+@media screen and (max-width: 978px) {
+    .container .elem:first-child{
+        border-radius: var(--br-elements) 0 0 var(--br-elements);
+    }
+    .container .elem:nth-child(2){
+        border-radius: 0 var(--br-elements) var(--br-elements) 0;
+    }
+    .container .elem:last-child{
+        border-radius: 0 0 var(--br-elements) var(--br-elements);
+    }
+}
+/* When there are 3 rows each with 1 element. */
+@media screen and (max-width: 668px) {
+    .container .elem:first-child{
+        border-radius: var(--br-elements) var(--br-elements) 0 0;
+    }
+    .container .elem:nth-child(2){
+        border-radius: 0;
+    }
+    .container .elem:last-child{
+        border-radius: 0 0 var(--br-elements) var(--br-elements);
+    }
+}
