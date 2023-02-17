@@ -34,6 +34,19 @@ body{
 .bg-luxury{
     background-color: var(--very-dark-cyan);
 }
+.pos-to-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/********************* Flexbox *********************/
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
 
 /********************* Main classes *********************/
 .container{
