@@ -80,6 +80,7 @@ body{
     font-size: var(--fs-p);
     color: var(--transparent-white);
     line-height: calc(var(--fs-p) + 0.6rem);
+    margin-bottom: 5rem;
 }
 .container .elem button{
     font-size: var(--fs-btn);
