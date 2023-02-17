@@ -54,4 +54,5 @@ body{
 }
 .container .elem{
     width: calc(100% / 3);
+    padding: 3rem;
 }
