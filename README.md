@@ -14,8 +14,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -35,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/totarochristian/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://3-column-preview-card-component-mchchefy8-totarochristian.vercel.app)
+- Solution URL: [https://github.com/totarochristian/3-column-preview-card-component](https://github.com/totarochristian/3-column-preview-card-component)
+- Live Site URL: [https://3-column-preview-card-component-mchchefy8-totarochristian.vercel.app](https://3-column-preview-card-component-mchchefy8-totarochristian.vercel.app)
 
 ## My process
 
