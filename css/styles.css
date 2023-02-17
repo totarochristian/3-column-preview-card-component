@@ -12,7 +12,7 @@
     /* Font-sizes */
     --fs-h2: 2.5rem;
     --fs-p: 0.95rem;
-    --fs-btn: 1.1rem;
+    --fs-btn: 0.95rem;
     /* Border radius */
     --br-elements: 7px;
 }
@@ -85,6 +85,10 @@ body{
 .container .elem button{
     font-size: var(--fs-btn);
     text-transform: capitalize;
+    width: 150px;
+    padding: 1rem;
+    border: 0;
+    border-radius: 30px;
 }
 .container .elem:first-child{
     border-radius: var(--br-elements) 0 0 var(--br-elements);
