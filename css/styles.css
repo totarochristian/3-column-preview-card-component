@@ -60,8 +60,7 @@ body{
 .container{
     width: 100%;
     min-height: 100vh;
-    padding: 3rem 1rem;
-    margin: 3rem 0;
+    padding: 6rem 1rem;
 }
 .container .elem{
     width: 310px;
