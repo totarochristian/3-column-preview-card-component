@@ -29,12 +29,6 @@
 body{
     background-color: var(--transparent-white);
 }
-.pos-to-center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 .bg-sedan{
     background-color: var(--bright-orange);
 }
@@ -57,16 +51,20 @@ body{
 /********************* Flexbox *********************/
 .d-flex{
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
     align-content: center;
 }
 
 /********************* Main classes *********************/
 .container{
-    max-width: 1400px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    margin: 3rem 0;
 }
 .container .elem{
-    width: calc(100% / 3);
+    width: 310px;
     padding: 3rem;
 }
 .container .elem h2{
@@ -77,11 +75,11 @@ body{
     margin: 2rem 0;
 }
 .container .elem p{
-    width: 95%;
     font-size: var(--fs-p);
     color: var(--transparent-white);
     line-height: calc(var(--fs-p) + 0.6rem);
     margin-bottom: 5rem;
+    padding-right: 0.2rem;
 }
 .container .elem button{
     font-size: var(--fs-btn);
