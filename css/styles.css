@@ -73,6 +73,7 @@ body{
     font-size: var(--fs-h2);
     color: var(--h2-color);
     font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
 }
 .container .elem p{
     font-size: var(--fs-p);
@@ -80,6 +81,7 @@ body{
 }
 .container .elem button{
     font-size: var(--fs-btn);
+    text-transform: capitalize;
 }
 .container .elem:first-child{
     border-radius: var(--br-elements) 0 0 var(--br-elements);
