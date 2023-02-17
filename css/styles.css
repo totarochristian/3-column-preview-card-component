@@ -25,5 +25,20 @@
 body{
     background-color: var(--transparent-white);
 }
+.bg-sedan{
+    background-color: var(--bright-orange);
+}
+.bg-suv{
+    background-color: var(--dark-cyan);
+}
+.bg-luxury{
+    background-color: var(--very-dark-cyan);
+}
 
 /********************* Main classes *********************/
+.container{
+    max-width: 1400px;
+}
+.container .elem{
+    width: calc(100% / 3);
+}
