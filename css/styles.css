@@ -74,6 +74,7 @@ body{
     color: var(--h2-color);
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
+    margin: 2rem 0;
 }
 .container .elem p{
     font-size: var(--fs-p);
