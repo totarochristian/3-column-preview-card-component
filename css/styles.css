@@ -56,3 +56,12 @@ body{
     width: calc(100% / 3);
     padding: 3rem;
 }
+.container .elem h2{
+    font-size: var(--fs-h2);
+}
+.container .elem p{
+    font-size: var(--fs-p);
+}
+.container .elem button{
+    font-size: var(--fs-btn);
+}
