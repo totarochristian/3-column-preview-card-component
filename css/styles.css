@@ -10,7 +10,7 @@
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(179, 100%, 13%);
     /* Font-sizes */
-    --fs-h2: 2rem;
+    --fs-h2: 2.5rem;
     --fs-p: 0.95rem;
     --fs-btn: 1.1rem;
     /* Border radius */
@@ -79,6 +79,7 @@ body{
 .container .elem p{
     font-size: var(--fs-p);
     color: var(--transparent-white);
+    line-height: calc(var(--fs-p) + 0.6rem);
 }
 .container .elem button{
     font-size: var(--fs-btn);
