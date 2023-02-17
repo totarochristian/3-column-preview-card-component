@@ -13,6 +13,8 @@
     --fs-h2: 2rem;
     --fs-p: 0.95rem;
     --fs-btn: 1.1rem;
+    /* Border radius */
+    --br-elements: 7px;
 }
 
 /********************* Reset *********************/
@@ -76,4 +78,10 @@ body{
 }
 .container .elem button{
     font-size: var(--fs-btn);
+}
+.container .elem:first-child{
+    border-radius: var(--br-elements) 0 0 var(--br-elements);
+}
+.container .elem:last-child{
+    border-radius: 0 var(--br-elements) var(--br-elements) 0;
 }
