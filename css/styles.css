@@ -22,5 +22,8 @@
 }
 
 /********************* General *********************/
+body{
+    background-color: var(--transparent-white);
+}
 
 /********************* Main classes *********************/
