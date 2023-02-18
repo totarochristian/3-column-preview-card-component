@@ -67,3 +67,4 @@ Use of media queries to change the style of elements based on the screen size.
 
 - GitHub - [@totarochristian](https://github.com/totarochristian)
 - Frontend Mentor - [@totarochristian](https://www.frontendmentor.io/profile/totarochristian)
+- Linkedin [Christian Totaro](https://www.linkedin.com/in/christian-totaro-080a7018a/)
